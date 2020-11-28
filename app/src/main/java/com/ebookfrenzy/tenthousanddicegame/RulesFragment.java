@@ -8,12 +8,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.net.Uri;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link RulesFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class RulesFragment extends Fragment {
+
+    public interface OnFragmentInteractionListener {
+        //ToDo Update Argument type and name
+        void onFragmentInteractionListener(Uri uri);
+    }
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

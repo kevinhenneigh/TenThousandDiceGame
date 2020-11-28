@@ -2,11 +2,13 @@ package com.ebookfrenzy.tenthousanddicegame;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.net.Uri;
+
 import android.os.Bundle;
 
 import com.ebookfrenzy.tenthousanddicegame.ui.main.MainFragment;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements RulesFragment.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,4 +16,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.main_activity);
 
     }
+
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+    }
+
+
+
 }
