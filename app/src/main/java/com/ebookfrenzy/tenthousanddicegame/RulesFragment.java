@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.net.Uri;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -19,7 +20,7 @@ public class RulesFragment extends Fragment {
 
     public interface OnFragmentInteractionListener {
         //ToDo Update Argument type and name
-        void onFragmentInteractionListener(Uri uri);
+        void onFragmentInteraction(Uri uri);
     }
 
     // TODO: Rename parameter arguments, choose names that match

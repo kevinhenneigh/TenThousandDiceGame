@@ -11,15 +11,16 @@
         android:label="main_fragment"
         tools:layout="@layout/main_fragment" >
         <action
-            android:id="@+id/action_mainFragment_to_rulesFragment"
+            android:id="@+id/mainToRules"
             app:destination="@id/rulesFragment" />
         <action
-            android:id="@+id/action_mainFragment_to_gameFragment"
+            android:id="@+id/mainToGame"
             app:destination="@id/gameFragment" />
         <action
-            android:id="@+id/action_mainFragment_to_bestRoundsEverFragment"
+            android:id="@+id/mainToBestRounds"
             app:destination="@id/bestRoundsEverFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/rulesFragment"
         android:name="com.ebookfrenzy.tenthousanddicegame.RulesFragment"
@@ -35,4 +36,5 @@
         android:name="com.ebookfrenzy.tenthousanddicegame.bestRoundsEverFragment"
         android:label="fragment_best_rounds_ever"
         tools:layout="@layout/fragment_best_rounds_ever" />
+
 </navigation>
