@@ -64,13 +64,13 @@
         android:gravity="center_horizontal"
         android:text="@string/continuing_play_n_the_player_keeps_rolling_the_remaining_dice_and_must_set_aside_at_least_one_die_from_each_scoring_combination_n_player_must_score_each_throw_separately_for_example_player_can_t_use_a_three_from_the_first_roll_and_two_threes_from_the_second_roll_to_make_three_of_a_kind_n_player_keeps_playing_until_either_player_has_a_zero_throw_and_gets_no_score_for_the_whole_turn_or_decides_to_stop_n_if_player_has_removed_all_six_dice_because_they_scored_player_may_throw_all_six_again_and_keeps_scoring"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/paragraph5Text"
+        app:layout_constraintBottom_toTopOf="@+id/paragraph4Text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/paragraph2Text" />
 
     <TextView
-        android:id="@+id/paragraph5Text"
+        android:id="@+id/paragraph4Text"
         android:layout_width="364dp"
         android:layout_height="138dp"
         android:layout_marginStart="44dp"
